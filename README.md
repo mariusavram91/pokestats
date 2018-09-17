@@ -71,3 +71,10 @@ hp
         base: 45
         effort: 0
 ```
+
+### Executable
+
+```
+$ sudo make install
+$ pokestats pikachu
+```
