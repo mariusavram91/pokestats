@@ -32,6 +32,11 @@ When not using you can deactivate it.
 ```
 $ deactivate
 ```
+## Dependencies
+
+```
+$ pip install -r requirements.txt
+```
 
 ## Run the script
 
@@ -39,4 +44,30 @@ Python 3 is a requirement.
 
 ```
 $ python pokestats.py bulbasaur
+```
+
+### Output example
+
+```
+******************************************************************
+Stats for bulbasaur
+******************************************************************
+speed
+        base: 45
+        effort: 0
+special-defense
+        base: 65
+        effort: 0
+special-attack
+        base: 65
+        effort: 1
+defense
+        base: 49
+        effort: 0
+attack
+        base: 49
+        effort: 0
+hp
+        base: 45
+        effort: 0
 ```
