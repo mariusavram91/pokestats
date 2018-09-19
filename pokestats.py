@@ -11,10 +11,7 @@ def main():
         print('Example:\n\tpython pokestats.py bulbasaur')
 
 
-def get_stats(pokemon_name=None, pokeapi=None):
-    if pokeapi is None:
-        pokeapi = 'http://pokeapi.co/api/v2/'
-
+def get_stats(pokemon_name=None, pokeapi='http://pokeapi.co/api/v2/'):
     pokemon_data = requests.get(pokeapi + 'pokemon/' + pokemon_name.lower())
 
     if pokemon_data.status_code == 200:

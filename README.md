@@ -72,7 +72,7 @@ hp
         effort: 0
 ```
 
-### Executable
+### Executable (Linux)
 
 ```
 $ sudo make install
